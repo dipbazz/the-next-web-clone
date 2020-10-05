@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -7,6 +8,7 @@
 body {
   font-family: 'Raleway', sans-serif;
   font-size: 14px;
+  padding: 0 20px 0 20px;
 }
 
 /* header styles */
@@ -92,3 +94,139 @@ body {
 .banner-text .subscript {
   color: #ccc;
 }
+
+/* Latest News */
+
+.latest-news-container {
+  padding: 20px;
+}
+
+.latest-news-container img {
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+}
+
+.heading {
+  color: red;
+  font-weight: 800;
+  font-size: 2em;
+
+
+}
+.news-wrapper {
+  margin-top: 28px;
+}
+.news-article {
+  display: flex;
+  margin-bottom: 14px;
+}
+
+.text-wrapper {
+  margin-left: 14px;
+}
+
+.news-title{
+  font-size: 1em;
+}
+
+.news-info {
+  font-size: .8em;
+  color: #7f7f7f;
+  margin-top: 10px;
+}
+
+/* funding */
+
+.right-text {
+  display: flex;
+  flex-direction: column;
+  margin-top: 26px;
+  
+}
+
+.right-text a{
+   color: red;
+  text-decoration: none;
+  margin-top: 11px;
+
+}
+
+.funding-wrapper {
+  margin-top: 26px;
+
+}
+
+.funding-source {
+  position: relative;
+  background: #fffaf8;
+}
+
+.funding-logo img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  margin: 10px;
+}
+
+
+.funding-company {
+  background-color: #f42;
+  padding: 10.6px 16px 10.6px 84px; 
+  font-size: 1.5em;
+  color: #fff;
+}
+
+.funding-amount {
+  font-size: 1.2rem;
+  padding: 10.6px 16px 10.6px 84px;
+  font-weight: 700;
+  background-color: rgba(255,68,34,.08); 
+}
+
+.funding-amount span {
+  font-size: .8em;
+  color: #7f7f7f;
+  font-weight: 400; 
+}
+
+.funding-source {
+  margin-bottom: 16px;
+}
+.funding-source .footer-wrapper {
+  padding: 16px;
+
+}
+
+.icon-address {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+
+.footer-wrapper .iconify {
+  font-size: 1.2em;
+  margin-right: 10px;
+}
+
+
+.funding-footer {
+  font-size: .9em;
+  padding: 10px 16px 16px 0;
+  border-top: 1px solid #ffcdc2;
+}
+
+
+
+
+
+
+
+
+
+
+
