@@ -246,6 +246,14 @@ main {
   position: relative;
   background-blend-mode: multiply;
 }
+.suggestion-item {
+  margin-bottom: 20px;
+  color: red;
+}
+
+.suggestion-item .heading {
+  margin-bottom: 20px;
+}
 
 .suggestion-item a {
   color: inherit;
@@ -263,7 +271,90 @@ main {
   font-size: 1em;
 }
 
+.bottom-wrapper {
+  background-color: #fff4f2;
+  color: #ff4f70;
+  display: flex;
+}
 
+.bottom-wrapper .text{
+  padding: 10px 14px 0 14px;
+  font-size: 1em;
+}
+
+.bottom-wrapper .text{
+  padding: 10px 14px 0 14px;
+  font-size: 1em;
+}
+
+.bottom-wrapper .text p{
+  margin-bottom: 5px;
+}
+
+.latest-img img{
+  width: 96px;
+  height: 96px;
+
+}
+
+.suggestion-more-info {
+  text-align: left;
+  list-style: none;
+
+}
+
+.suggestion-more-info li {
+  padding: 10px 0 10px 14px;
+  font-size: .9em;
+  color: #7f7f7f;
+  border-bottom: 1px solid #eeeeee;
+}
+
+/*Latest-deals*/
+.latest-deals .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 28px;
+  margin-bottom: 24px;
+}
+
+.all-deals {
+  text-decoration: none;
+  color: red;
+}
+
+.latest-deal-article {
+  display: flex;
+}
+
+.latest-deals img {
+  width: 75px;
+  height: 75px;
+  margin-right: 12px;
+}
+
+.latest-deal-article h1 {
+  font-size: 1em;
+  color: black;
+}
+
+.latest-deal-article p {
+  margin-top: 12px;
+}
+
+.latest-deal-article span {
+  font-size: .9em;
+  margin-right: 5px;
+}
+.latest-deal-article .left {
+  text-decoration: line-through;
+  color: #acacaf;
+}
+
+.latest-deal-article a{
+  color: inherit;
+}
 
 
 
