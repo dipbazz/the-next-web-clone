@@ -90,7 +90,6 @@ header {
 
 .banner-img {
   background-image: url('../img/banner.png'), linear-gradient(transparent 40%, #000);
-  height: 376px;
   background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: multiply;
