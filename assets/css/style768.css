@@ -1,0 +1,59 @@
+.top-header {
+  display: block;
+  background-color: #000;
+}
+
+.top-left-links,
+.top-right-links,
+.top-header,
+.bottom-left-links {
+  display: flex;
+}
+
+.top-header a {
+  color: #fff;
+  padding: 5px;
+  font-size: 0.9em;
+}
+
+.top-header {
+  justify-content: space-between;
+  padding: 10px;
+  padding-left: 120px;
+}
+
+.menu {
+  display: none;
+}
+
+.bottom-header {
+  padding: 0;
+}
+
+.bottom-left-links {
+  list-style-type: none;
+  padding-left: 120px;
+}
+
+.bottom-left-links li {
+  padding: 10px;
+}
+
+.bottom-left-links li a {
+  color: #aaa;
+  text-transform: uppercase;
+  font-size: 0.9em;
+}
+
+/* banner news */
+.banner-wrapper {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-column-gap: 10px;
+  grid-template-rows: 1fr 1fr;
+}
+
+.banner-wrapper .large {
+  grid-area: ;
+}
+

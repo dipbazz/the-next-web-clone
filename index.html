@@ -5,12 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;700;800;900&display=swap">
   <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/style768.css" media="screen and (min-width: 768px)">
   <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
 
   <title>Responsive design clone of the next web homepage.</title>
 </head>
 <body>
   <header>
+    <figure class="logo"><img src="assets/img/tnw.svg" alt=""></figure>
     <div class="top-header">
       <nav class="top-left-nav">
         <ul class="top-left-links">
@@ -34,7 +36,6 @@
     </div>
 
     <div class="bottom-header">
-      <figure class="logo"><img src="assets/img/tnw.svg" alt=""></figure>
       <nav class="bottom-left-nav">
         <ul class="bottom-left-links">
           <li><a href="#">Latest</a></li>
@@ -42,8 +43,8 @@
           <li><a href="#">Plugged</a></li>
           <li><a href="#">Readme</a></li>
           <li><a href="#">Growth Quarters</a></li>
-          <li><a href="#">Shift</a></li>
-          <li><a href="#">Neural</a></li>
+          <li class="only-on-lg"><a href="#">Shift</a></li>
+          <li class="only-on-lg"><a href="#">Neural</a></li>
         </ul>
       </nav>
 
@@ -62,18 +63,18 @@
   <div class="title-message"><p>The final day of TNW2020 is happening now! Join online →</p></div>
 
   <div class="banner-wrapper">
-    <div class="banner-img">
+    <div class="banner-img large">
       <div class="banner-text">
         <h1 class="news-title"> A begginer's guide to the math that powers machine learning</h1>
         <p class="subscript"><span> by Ben Dickson</span><span> 3 hours ago</span></p>
       </div>
     </div>
-    <div class="banner-img">
+    <div class="banner-img small">
       <div class="banner-text">
         <h1 class="news-title">TNW2020 is happening now, and you can still join online</h1>
       </div>
     </div>
-    <div class="banner-img">
+    <div class="banner-img small">
       <div class="banner-text">
         <h1 class="news-title"> How to perfect your fintech story and close your next funding round</h1>
         <p class="subscript"><span> by Naja Poljo</span><span> 3 hours ago</span></p>
@@ -635,7 +636,7 @@
             </ul>
           </div>
         </section>
-      </div> 
+      </div>
    </div>
 
     <div class="latest-deals">
@@ -645,7 +646,7 @@
         </h1>
         <span class="all-deals">See all Deals</span>
       </div>
-      
+
       <div class="wrapper">
         <article class="latest-deal-article">
           <figure>
@@ -748,7 +749,7 @@
           </div>
         </article>
 
-        
+
       </div>
     </div>
 
@@ -763,7 +764,7 @@
           <span class="iconify" data-icon="cib:rss" data-inline="false"></span>
           <span class="iconify" data-icon="ant-design:mail-outlined" data-inline="false"></span>
         </div>
-        <ul class="footer nav">
+        <ul class="footer-nav">
           <li><a href="#">Events</a></li>
           <li><a href="#">About</a></li>
           <li><a href="#">Advertise</a></li>
