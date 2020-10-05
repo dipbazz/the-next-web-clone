@@ -8,6 +8,13 @@
 body {
   font-family: 'Raleway', sans-serif;
   font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
   padding: 0 20px 0 20px;
 }
 
@@ -96,24 +103,18 @@ body {
 }
 
 /* Latest News */
-
-.latest-news-container {
-  padding: 20px;
-}
-
 .latest-news-container img {
   width: 75px;
   height: 75px;
   object-fit: cover;
 }
 
-.heading {
+.heading a {
   color: red;
   font-weight: 800;
-  font-size: 2em;
-
-
+  font-size: 1em;
 }
+
 .news-wrapper {
   margin-top: 28px;
 }
@@ -126,8 +127,12 @@ body {
   margin-left: 14px;
 }
 
-.news-title{
+.news-wrapper .news-title {
   font-size: 1em;
+}
+
+.news-wrapper .news-title a {
+  color: #000;
 }
 
 .news-info {
@@ -136,13 +141,17 @@ body {
   margin-top: 10px;
 }
 
+.news-info a {
+  color: inherit;
+}
+
 /* funding */
 
 .right-text {
   display: flex;
   flex-direction: column;
   margin-top: 26px;
-  
+
 }
 
 .right-text a{
@@ -162,6 +171,11 @@ body {
   background: #fffaf8;
 }
 
+.funding-source a {
+  color: inherit;
+  font-size: inherit;
+}
+
 .funding-logo img{
   position: absolute;
   top: 0;
@@ -175,7 +189,7 @@ body {
 
 .funding-company {
   background-color: #f42;
-  padding: 10.6px 16px 10.6px 84px; 
+  padding: 10.6px 16px 10.6px 84px;
   font-size: 1.5em;
   color: #fff;
 }
@@ -184,13 +198,13 @@ body {
   font-size: 1.2rem;
   padding: 10.6px 16px 10.6px 84px;
   font-weight: 700;
-  background-color: rgba(255,68,34,.08); 
+  background-color: rgba(255,68,34,.08);
 }
 
 .funding-amount span {
   font-size: .8em;
   color: #7f7f7f;
-  font-weight: 400; 
+  font-weight: 400;
 }
 
 .funding-source {
@@ -201,7 +215,7 @@ body {
 
 }
 
-.icon-address {
+.icon-address a {
   display: flex;
   align-items: center;
   margin-bottom: 20px;
@@ -221,10 +235,33 @@ body {
 }
 
 
+/* news suggestion */
+.news-suggestion-header {
+  background-image: url("../img/news-suggestion.jpg"), linear-gradient(transparent 40%, #000);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 396px;
+  padding: 14px;
+  position: relative;
+  background-blend-mode: multiply;
+}
 
+.suggestion-item a {
+  color: inherit;
+}
 
+.suggestion-info-wrapper {
+  position: absolute;
+  bottom: 14px;
+  color: #fff;
+}
 
-
+.suggestion-info-wrapper .about {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 1em;
+}
 
 
 
