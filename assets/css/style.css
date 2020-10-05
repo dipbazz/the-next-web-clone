@@ -432,3 +432,12 @@ footer {
   text-align: center;
   font-size: 0.9em;
 }
+
+
+
+@media screen and (min-width: 1220px) {
+  main {
+    max-width: 1220px;
+    margin: auto;
+  }
+}

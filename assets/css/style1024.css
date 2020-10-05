@@ -1,0 +1,29 @@
+.only-on-lg {
+  display: block;
+}
+
+.logo {
+  display: none;
+}
+
+.top-header,
+.bottom-left-links {
+  padding-left: 20px;
+}
+
+/* latest news and funding */
+.news-wrapper,
+.funding-wrapper,
+.latest-deals .wrapper {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.funding .header {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* news suggestions */
+.news-suggestion {
+  grid-template-columns: repeat(3, 1fr);
+}
