@@ -248,7 +248,6 @@ header {
   border-top: 1px solid #ffcdc2;
 }
 
-
 /* news suggestion */
 .news-suggestion-header {
   background-image: url("../img/news-suggestion.jpg"), linear-gradient(transparent 40%, #000);
