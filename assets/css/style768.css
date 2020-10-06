@@ -72,9 +72,9 @@
   flex-direction: column;
 }
 
-.news-article img {
+.news-article .news-image {
   width: 100%;
-  height: unset !important;
+  height: unset;
 }
 
 .news-article .text-wrapper {
