@@ -95,6 +95,7 @@ header {
   background-blend-mode: multiply;
   margin-bottom: 8px;
   position: relative;
+  height: 33.3333vh;
 }
 
 .banner-img .banner-text {
@@ -120,7 +121,13 @@ header {
   height: 75px;
   object-fit: cover;
 }
+.heading {
+  margin-top: 1em;
+}
 
+.heading a:hover {
+  color: black;
+}
 .heading a {
   color: red;
   font-weight: 800;
@@ -275,6 +282,12 @@ header {
   position: absolute;
   bottom: 14px;
   color: #fff;
+  padding-right: 10px;
+}
+
+.suggestion-title {
+  font-size: 1.3em;
+  margin-top: 10px;
 }
 
 .suggestion-info-wrapper .about {
@@ -290,12 +303,7 @@ header {
 }
 
 .bottom-wrapper .text{
-  padding: 10px 14px 0 14px;
-  font-size: 1em;
-}
-
-.bottom-wrapper .text{
-  padding: 10px 14px 0 14px;
+  padding: 10px 14px;
   font-size: 1em;
 }
 
@@ -341,6 +349,10 @@ header {
   align-items: center;
   margin-top: 28px;
   margin-bottom: 24px;
+}
+
+.latest-deals .heading {
+  margin-top: 0;
 }
 
 .all-deals {
@@ -432,7 +444,6 @@ footer {
   text-align: center;
   font-size: 0.9em;
 }
-
 
 
 @media screen and (min-width: 1220px) {

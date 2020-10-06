@@ -11,6 +11,75 @@
   padding-left: 20px;
 }
 
+.large .news-title {
+  font-size: 2.5em;
+  font-weight: 900;
+}
+
+.small .news-title {
+  font-size: 2em;
+  font-weight: 900;
+
+} 
+
+.large {
+  background-image: url('../img/banner.png'), linear-gradient(165deg, rgba(255,66,21,1) 0%, rgba(255,66,21,0.50) 60%, rgba(40,40,40,.50) 75%, rgba(40,40,40,1) 92%);
+}
+
+
+.large figure{
+  position: absolute;
+  width: 344px;
+  top: 10px;
+  left: 10px; 
+}
+
+.news-article .news-title {
+  font-size: 1.2em;
+  font-weight: 800;
+
+}
+
+.news-article .news-title a:hover {
+  color: red;
+  text-decoration: underline;
+
+}
+
+.funding-company {
+  font-size: 1.2em;
+  font-weight: 900;
+}
+
+.funding-footer {
+  font-size: .85em;
+}
+
+.suggestion-title {
+  font-weight: 900;
+
+}
+
+.latest-title a{
+  font-weight: 800;
+}
+
+
+.suggestion-title a:hover {
+  text-decoration: underline;
+
+}
+
+.latest-title a:hover{
+  text-decoration: underline;
+}
+
+.suggestion-more-info a:hover{
+  color: black;
+}
+
+
+
 /* latest news and funding */
 .news-wrapper,
 .funding-wrapper,
@@ -26,4 +95,18 @@
 /* news suggestions */
 .news-suggestion {
   grid-template-columns: repeat(3, 1fr);
+}
+
+.latest-deals .text h1 {
+    font-size: 1.2em;
+    font-weight: 800;
+}
+
+.latest-deals .text a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+footer a:hover {
+  color: white;
 }
