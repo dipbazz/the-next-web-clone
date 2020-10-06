@@ -1,0 +1,103 @@
+.only-on-lg {
+  display: block;
+}
+
+.logo {
+  display: none;
+}
+
+.top-header,
+.bottom-left-links {
+  padding-left: 20px;
+}
+
+.large .news-title {
+  font-size: 2.5em;
+  font-weight: 900;
+}
+
+.small .news-title {
+  font-size: 2em;
+  font-weight: 900;
+}
+
+.large {
+  background-image: url('../img/banner.png'), linear-gradient(165deg, rgba(255, 66, 21, 1) 0%, rgba(255, 66, 21, 0.5) 60%, rgba(40, 40, 40, 0.5) 75%, rgba(40, 40, 40, 1) 92%);
+}
+
+.large figure {
+  position: absolute;
+  width: 344px;
+  top: 10px;
+  left: 10px;
+}
+
+.news-article .news-title {
+  font-size: 1.2em;
+  font-weight: 800;
+}
+
+.news-article .news-link:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+.funding-company {
+  font-size: 1.2em;
+  font-weight: 900;
+}
+
+.funding-footer {
+  font-size: 0.85em;
+}
+
+.suggestion-title {
+  font-weight: 900;
+}
+
+.latest-title .link {
+  font-weight: 800;
+}
+
+.suggestion-title .link:hover {
+  text-decoration: underline;
+}
+
+.latest-title .link:hover {
+  text-decoration: underline;
+}
+
+.suggestion-more-info .link:hover {
+  color: black;
+}
+
+/* latest news and funding */
+.news-wrapper,
+.funding-wrapper,
+.latest-deals .wrapper {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.funding .header {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* news suggestions */
+.news-suggestion {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.latest-deals .text h1 {
+  font-size: 1.2em;
+  font-weight: 800;
+}
+
+.latest-deals .link:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+footer a:hover {
+  color: white;
+}

@@ -1,0 +1,140 @@
+
+.top-left-links,
+.top-right-links,
+.top-header,
+.bottom-left-links {
+  display: flex;
+}
+
+.top-header {
+  background-color: #000;
+  justify-content: space-between;
+  padding: 10px;
+  padding-left: 120px;
+}
+
+.top-header a {
+  color: #fff;
+  padding: 5px;
+  font-size: 0.9em;
+}
+
+.menu {
+  display: none;
+}
+
+.bottom-header {
+  padding: 0;
+}
+
+.bottom-left-links {
+  list-style-type: none;
+  padding-left: 120px;
+}
+
+.bottom-left-links li {
+  padding: 10px;
+}
+
+.bottom-left-links li a {
+  color: #aaa;
+  text-transform: uppercase;
+  font-size: 0.9em;
+}
+
+/* banner news */
+
+.banner-wrapper {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 33vh 33vh;
+  grid-gap: 10px 10px;
+}
+
+.banner-img {
+  height: 100%;
+}
+
+.banner-wrapper .large {
+  grid-row: 1/3;
+  height: 100%;
+}
+
+/* latest-news */
+
+.news-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 36px 18px;
+}
+
+.news-article {
+  flex-direction: column;
+}
+
+.news-article .news-image {
+  width: 100%;
+  height: unset;
+}
+
+.news-article .text-wrapper {
+  margin: 0;
+  margin-top: 10px;
+}
+
+.funding-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 18px;
+}
+
+.funding .right-text {
+  flex-direction: row;
+  align-items: center;
+}
+
+.funding .right-text a:nth-child(2) {
+  border-right: 1px solid red;
+  border-left: 1px solid red;
+  padding: 0 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.funding-company {
+  font-size: 1em;
+}
+
+/* news suggestions */
+
+.news-suggestion {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 50px 20px;
+  margin-top: 40px;
+}
+
+/* latest deals */
+.latest-deals .wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 36px 18px;
+}
+
+.latest-deal-article {
+  flex-direction: column;
+}
+
+.latest-deals img {
+  height: unset;
+  width: 100%;
+}
+
+.latest-deal-article h1 {
+  margin-top: 10px;
+}
+
+.latest-deal-article span {
+  margin-right: 0;
+  margin-top: 10px;
+}
