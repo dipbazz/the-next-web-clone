@@ -10,7 +10,7 @@ We have used a technique like flexbox, grid, position and float to layout our we
 
 This project is about building a home page about the next web.
 
-![screenshot](./assets/img/app_screenshot.png)
+![screenshot](./assets/img/app_screeshot.png)
 
 The features of this project are listed as below:
 1. The website is completely responsive with three different brekpoint as:
