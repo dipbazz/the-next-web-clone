@@ -19,31 +19,27 @@
 .small .news-title {
   font-size: 2em;
   font-weight: 900;
-
-} 
-
-.large {
-  background-image: url('../img/banner.png'), linear-gradient(165deg, rgba(255,66,21,1) 0%, rgba(255,66,21,0.50) 60%, rgba(40,40,40,.50) 75%, rgba(40,40,40,1) 92%);
 }
 
+.large {
+  background-image: url('../img/banner.png'), linear-gradient(165deg, rgba(255, 66, 21, 1) 0%, rgba(255, 66, 21, 0.5) 60%, rgba(40, 40, 40, 0.5) 75%, rgba(40, 40, 40, 1) 92%);
+}
 
-.large figure{
+.large figure {
   position: absolute;
   width: 344px;
   top: 10px;
-  left: 10px; 
+  left: 10px;
 }
 
 .news-article .news-title {
   font-size: 1.2em;
   font-weight: 800;
-
 }
 
-.news-article .news-title a:hover {
+.news-article .news-link:hover {
   color: red;
   text-decoration: underline;
-
 }
 
 .funding-company {
@@ -52,29 +48,26 @@
 }
 
 .funding-footer {
-  font-size: .85em;
+  font-size: 0.85em;
 }
 
 .suggestion-title {
   font-weight: 900;
-
 }
 
-.latest-title a{
+.latest-title .link {
   font-weight: 800;
 }
 
-
-.suggestion-title a:hover {
-  text-decoration: underline;
-
-}
-
-.latest-title a:hover{
+.suggestion-title .link:hover {
   text-decoration: underline;
 }
 
-.suggestion-more-info a:hover{
+.latest-title .link:hover {
+  text-decoration: underline;
+}
+
+.suggestion-more-info .link:hover {
   color: black;
 }
 
@@ -98,11 +91,11 @@
 }
 
 .latest-deals .text h1 {
-    font-size: 1.2em;
-    font-weight: 800;
+  font-size: 1.2em;
+  font-weight: 800;
 }
 
-.latest-deals .text a:hover {
+.latest-deals .link:hover {
   color: red;
   text-decoration: underline;
 }

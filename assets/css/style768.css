@@ -1,7 +1,3 @@
-.top-header {
-  display: block;
-  background-color: #000;
-}
 
 .top-left-links,
 .top-right-links,
@@ -10,16 +6,17 @@
   display: flex;
 }
 
+.top-header {
+  background-color: #000;
+  justify-content: space-between;
+  padding: 10px;
+  padding-left: 120px;
+}
+
 .top-header a {
   color: #fff;
   padding: 5px;
   font-size: 0.9em;
-}
-
-.top-header {
-  justify-content: space-between;
-  padding: 10px;
-  padding-left: 120px;
 }
 
 .menu {
@@ -61,7 +58,6 @@
 .banner-wrapper .large {
   grid-row: 1/3;
   height: 100%;
-  
 }
 
 /* latest-news */
@@ -103,14 +99,13 @@
   padding: 0 10px;
   margin-left: 10px;
   margin-right: 10px;
-
 }
 
 .funding-company {
   font-size: 1em;
 }
 
-/*news suggestions*/
+/* news suggestions */
 
 .news-suggestion {
   display: grid;
@@ -144,4 +139,3 @@
   margin-right: 0;
   margin-top: 10px;
 }
-

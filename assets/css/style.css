@@ -31,7 +31,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-right: 15px;
   background-color: #fff;
   padding: 15.5px;
 }
@@ -88,6 +87,11 @@ header {
   margin-right: 6px;
 }
 
+.banner-link {
+  text-decoration: none;
+  color: inherit;
+}
+
 .banner-img {
   background-image: url('../img/banner.png'), linear-gradient(transparent 40%, #000);
   background-size: cover;
@@ -121,13 +125,11 @@ header {
   height: 75px;
   object-fit: cover;
 }
+
 .heading {
   margin-top: 1em;
 }
 
-.heading a:hover {
-  color: black;
-}
 .heading a {
   color: red;
   font-weight: 800;
@@ -137,6 +139,7 @@ header {
 .news-wrapper {
   margin-top: 28px;
 }
+
 .news-article {
   display: flex;
   margin-bottom: 14px;
@@ -150,17 +153,17 @@ header {
   font-size: 1em;
 }
 
-.news-wrapper .news-title a {
+.news-wrapper .news-link {
   color: #000;
 }
 
 .news-info {
-  font-size: .8em;
+  font-size: 0.8em;
   color: #7f7f7f;
   margin-top: 10px;
 }
 
-.news-info a {
+.news-info-link {
   color: inherit;
 }
 
@@ -170,32 +173,30 @@ header {
   display: flex;
   flex-direction: column;
   margin-top: 10px;
-
 }
 
-.right-text a{
-   color: red;
+.right-text-link {
+  color: red;
   text-decoration: none;
   margin-top: 11px;
-
 }
 
 .funding-wrapper {
   margin-top: 26px;
-
 }
 
 .funding-source {
   position: relative;
   background: #fffaf8;
+  margin-bottom: 16px;
 }
 
-.funding-source a {
+.source-link {
   color: inherit;
   font-size: inherit;
 }
 
-.funding-logo img{
+.funding-logo img {
   position: absolute;
   top: 0;
   left: 0;
@@ -204,7 +205,6 @@ header {
   object-fit: cover;
   margin: 10px;
 }
-
 
 .funding-company {
   background-color: #f42;
@@ -217,38 +217,33 @@ header {
   font-size: 1.2rem;
   padding: 10.6px 16px 10.6px 84px;
   font-weight: 700;
-  background-color: rgba(255,68,34,.08);
+  background-color: rgba(255, 68, 34, 0.08);
 }
 
 .funding-amount span {
-  font-size: .8em;
+  font-size: 0.8em;
   color: #7f7f7f;
   font-weight: 400;
 }
 
-.funding-source {
-  margin-bottom: 16px;
-}
 .funding-source .footer-wrapper {
   padding: 16px;
-
 }
 
-.icon-address a {
+.icon-address .icon {
   display: flex;
   align-items: center;
   margin-bottom: 20px;
+  color: inherit;
 }
-
 
 .footer-wrapper .iconify {
   font-size: 1.2em;
   margin-right: 10px;
 }
 
-
 .funding-footer {
-  font-size: .9em;
+  font-size: 0.9em;
   padding: 10px 16px 16px 0;
   border-top: 1px solid #ffcdc2;
 }
@@ -265,6 +260,7 @@ header {
   position: relative;
   background-blend-mode: multiply;
 }
+
 .suggestion-item {
   margin-bottom: 20px;
   color: red;
@@ -302,36 +298,34 @@ header {
   display: flex;
 }
 
-.bottom-wrapper .text{
+.bottom-wrapper .text {
   padding: 10px 14px;
   font-size: 1em;
 }
 
-.bottom-wrapper .text p{
+.bottom-wrapper .latest-text {
   margin-bottom: 5px;
 }
 
-.latest-img img{
+.latest-img img {
   width: 96px;
   height: 96px;
-
 }
 
 .suggestion-more-info {
   text-align: left;
   list-style: none;
-
 }
 
 .suggestion-more-info li {
   padding: 10px 0 10px 14px;
-  font-size: .9em;
+  font-size: 0.9em;
   color: #6a6a6f;
-  border-bottom: 1px solid #eeeeee;
+  border-bottom: 1px solid #eee;
   position: relative;
 }
 
-.suggestion-more-info li:before {
+.suggestion-more-info li::before {
   content: "";
   height: 5px;
   width: 5px;
@@ -342,7 +336,7 @@ header {
   top: 15px;
 }
 
-/*Latest-deals*/
+/* Latest-deals */
 .latest-deals .header {
   display: flex;
   justify-content: space-between;
@@ -375,21 +369,27 @@ header {
   color: black;
 }
 
-.latest-deal-article p {
+.latest-deal-article .amount {
   margin-top: 12px;
 }
 
 .latest-deal-article span {
-  font-size: .9em;
+  font-size: 0.9em;
   margin-right: 5px;
 }
+
 .latest-deal-article .left {
   text-decoration: line-through;
   color: #acacaf;
 }
 
-.latest-deal-article a{
+.latest-deal-article .latest-link {
   color: inherit;
+}
+
+.latest-deal-article .latest-link:hover {
+  color: red;
+  text-decoration: underline;
 }
 
 /* footer styles */
@@ -402,6 +402,10 @@ footer {
   padding-top: 2.5em;
   padding-bottom: 2.5em;
   background-color: #131313;
+}
+
+.footer-nav {
+  margin-top: 10px;
 }
 
 .top-footer .icons,
@@ -420,15 +424,11 @@ footer {
   color: #fff;
 }
 
-.footer-nav {
-  margin-top: 10px;
-}
-
 .footer-nav li {
   padding: 5px;
 }
 
-.footer-nav a {
+.footer-link {
   color: #ccc;
   text-transform: uppercase;
   font-size: 0.9em;
@@ -445,6 +445,10 @@ footer {
   font-size: 0.9em;
 }
 
+/* hover effects */
+.heading a:hover {
+  color: black;
+}
 
 @media screen and (min-width: 1220px) {
   main {
